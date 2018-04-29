@@ -1,0 +1,12 @@
+<h1> SSE using angular2 and Node Js </h1>
+<table>
+  <th>Player Name</th>
+  <th>Player Score</th>
+  <tr *ngFor="let x of records | async">
+    <td>{{x.playername}}</td>
+    <td>{{x.playerscore}}</td>
+  </tr>
+</table>
+
+<!-- {{records | async}} -->
+
